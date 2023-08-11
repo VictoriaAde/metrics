@@ -1,0 +1,65 @@
+.barChart {
+  border-radius: 0.75rem;
+  background: #fff;
+  padding: 1.31rem 1.25rem;
+}
+.doughnut_chart {
+  width: 170px;
+  margin: 1.5rem auto;
+}
+.barChart_heading {
+  display: flex;
+  justify-content: space-between;
+}
+.barChart_heading h2 {
+  color: #45464e;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.barChart .dropdown {
+  color: #bec0ca;
+  font-weight: 400;
+  font-size: 0.725rem;
+  border: 0.5px solid #a9a9a9;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 2px 1px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.barChart .dropdown option {
+  background-color: #fff;
+  color: #252121;
+  cursor: pointer;
+}
+.barChart_legend {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+}
+.barChart_legend h3 {
+  color: #a6a8b1;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.barChart_legend span {
+  /* padding: 0.5rem; */
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.375rem;
+}
+.barChart_legend .dot1 {
+  background-color: #5570f1 !important;
+}
+.barChart_legend span.dot2 {
+  background-color: #ffcc91 !important;
+}
+
+.barChart_legend span.dot3 {
+  background-color: #97a5eb !important;
+}

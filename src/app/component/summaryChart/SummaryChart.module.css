@@ -1,0 +1,58 @@
+.summary_chart {
+  border-radius: 0.75rem;
+  background: #fff;
+  padding: 1.31rem 1.25rem;
+}
+.summaryChart_heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.25rem;
+}
+.summaryChart_heading h2 {
+  color: #45464e;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+.summaryChart_heading .dropdown {
+  color: #1c1d22;
+  font-weight: 400;
+  font-size: 0.75rem;
+  border: 0.5px solid #a9a9a9;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 2px 1px;
+  border: none;
+  outline: none;
+}
+.summaryChart_heading .dropdown option {
+  background-color: #fff;
+  color: #252121;
+}
+.summaryChart_heading div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 1.31rem;
+}
+.summaryChart_heading .sales {
+  border-radius: 0.5rem;
+  background: rgba(85, 112, 241, 0.08);
+  padding: 0.3rem 0.5rem;
+}
+.summaryChart_heading .sales .dropdown {
+  background: rgba(85, 112, 241, 0.08);
+  color: #5570f1;
+  outline: none;
+}
+.summaryChart_heading .sales .dropdown option {
+  background: rgba(85, 112, 241, 0.08);
+  color: #5570f1;
+}
+.chart canvas {
+  max-width: 100%;
+}
+@media screen and (max-width: 500px) {
+  .summaryChart_heading div:first-child {
+    display: block;
+  }
+}
